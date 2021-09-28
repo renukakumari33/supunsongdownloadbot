@@ -26,7 +26,7 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/slbotzone"
+                        text="Group 🔊", url="https://t.me/ankimusicgroup"
                     ),
                     InlineKeyboardButton(
                         text="Dev 🔥", url="https://t.me/supunma"
