@@ -41,5 +41,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ mySongBot is online.")
+LOGGER.info(" mySongBot is online.")
 idle()
