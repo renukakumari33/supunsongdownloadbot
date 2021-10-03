@@ -11,7 +11,7 @@ pm_start_text = """
 Hey [{}](tg://user?id={}), I'm powerful  Song Downloader Bot 🎵
 
 😉 Just send me the song name you want to download.😋
-      eg:```/song saritha```
+      eg:```/song faded```
       
 A bot by @supunma 🇱🇰
 """
