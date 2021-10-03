@@ -14,7 +14,7 @@ Hey [{}](tg://user?id={}), I'm Music Factory Song Downloader Bot 🎵
 😉 Just send me the song name you want to download.😋
       eg:```/song alone```
       
-A bot by @tujan2 👈
+A bot by @tujan2 👈🎵
 """
 
 @app.on_message(filters.command("start"))
