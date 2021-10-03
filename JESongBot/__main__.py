@@ -1,4 +1,5 @@
-#Uvindu Bro <https://t.me/UvinduBro>
+#Music Factory <https://t.me/ankimusicgroup>
+
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from JESongBot.plugins import *
@@ -8,12 +9,12 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm powerful  Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm Music Factory Song Downloader Bot 🎵
 
 😉 Just send me the song name you want to download.😋
-      eg:```/song faded```
+      eg:```/song alone```
       
-A bot by @supunma 🇱🇰
+A bot by @tujan2 👈
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +27,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Group 🔊", url="https://t.me/ankimusicgroup"
+                        text="🎵 Our Music Group 🎵", url="https://t.me/ankimusicgroup"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/supunma"
+                        text="Our Rap Bot", url="@thisbotx_bot"
                     )
                 ]
             ]
